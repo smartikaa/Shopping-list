@@ -1,0 +1,38 @@
+.card-img{
+    filter: brightness(.4   );
+    
+}
+.card{
+    text-align: center;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    padding-top: 100px;
+    font-size: 4em;
+    color:#fff;
+}
+.card-text{
+    color:#fff;
+}
+button {
+    transition-duration: 0.4s;
+    width: 75px;
+    border-radius: 10px;
+  }
+  
+button:hover {
+    background-color: #000; 
+    color: white;
+  }
+input{
+   font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    background-color:rgba(0,0,0,0.5);
+    font-size: 1.5em;
+}
+.ul{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
